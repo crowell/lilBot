@@ -28,4 +28,4 @@ for ii in reversed(toDelete):
             'removed': ii}
     data = urllib.urlencode(values)
     req = urllib2.Request(url, data, header)
-    print urllib2.urlopen(req)
+    urllib2.urlopen(req)
