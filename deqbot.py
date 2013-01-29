@@ -21,7 +21,7 @@ res = pool.findAll('tr')
 for result in res:
     toDelete.append(result['id'])
 
-for ii in toDelete:
+for ii in reversed(toDelete):
     url = 'http://music.furstlabs.com/queue'
     header = { 'User-Agent' : user_agent }
     values = { 'change' : 'remove',
