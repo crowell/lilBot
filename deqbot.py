@@ -7,7 +7,7 @@ import sys
 from BeautifulSoup import *
 
 
-print "Lil\' B for Lil\' Bot - Dequeue : Evil Edition'
+print "Lil\' B for Lil\' Bot - Dequeue : Evil Edition"
 
 user_agent = 'Lil\' B for Lil\' Bot EVIL EDITION'
 headers = {'User-Agent' : user_agent}
