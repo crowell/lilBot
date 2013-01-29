@@ -22,9 +22,6 @@ for result in res:
     toDelete.append(result['id'])
 
 for ii in toDelete:
-    print ii
-
-for ii in range(500,100000):
     url = 'http://music.furstlabs.com/queue'
     user_agent = 'Lil\' B for Lil\' Bot'
     header = { 'User-Agent' : user_agent }
