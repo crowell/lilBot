@@ -7,6 +7,8 @@ import sys
 from BeautifulSoup import *
 
 
+print "Lil\' B for Lil\' Bot - Dequeue : Evil Edition'
+
 user_agent = 'Lil\' B for Lil\' Bot EVIL EDITION'
 headers = {'User-Agent' : user_agent}
 
@@ -29,3 +31,5 @@ for ii in reversed(toDelete):
     data = urllib.urlencode(values)
     req = urllib2.Request(url, data, header)
     urllib2.urlopen(req)
+
+print "ALL DONE!"
