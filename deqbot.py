@@ -23,7 +23,6 @@ for result in res:
 
 for ii in toDelete:
     url = 'http://music.furstlabs.com/queue'
-    user_agent = 'Lil\' B for Lil\' Bot'
     header = { 'User-Agent' : user_agent }
     values = { 'change' : 'remove',
             'removed': ii}
